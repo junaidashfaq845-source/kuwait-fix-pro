@@ -1,0 +1,158 @@
+:root{--navy:#123d6b;--blue:#0878df;--red:#f21f28;--green:#16d91a;--mint:#eaf5f4;--paper:#f8fbfd;--ink:#18344c;--muted:#607687;--line:#e1eaf0;--white:#fff;--gold:#f5b600;--shadow:0 16px 45px #123d6b12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.85}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}.ltr{direction:ltr;unicode-bidi:embed;display:inline-block;white-space:nowrap;font-family:Arial,sans-serif}.topbar{background:#0c2d50;color:#e9f3f9;font-size:13px}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;padding:7px 0}.header{position:sticky;top:0;z-index:9;background:#fff;border-bottom:1px solid var(--line)}.head{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;color:var(--navy);font-weight:900;font-size:18px;white-space:nowrap}.brandmark{display:grid;place-items:center;background:var(--blue);color:#fff;width:42px;height:42px;border-radius:14px;font-size:23px}.nav{display:flex;align-items:center;gap:18px;color:#4e6879;font-size:13px}.nav a:hover{color:var(--blue)}.head-cta{background:var(--red);color:#fff;border-radius:11px;padding:9px 14px;font-size:13px;font-weight:800;white-space:nowrap}.hero{background:radial-gradient(ellipse at 10% 10%,#cfeeea 0,transparent 34%),linear-gradient(120deg,#f4fbfa,#eef6fc);padding:48px 0 44px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:28px}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#e7f3ff;border:1px solid #d4e7f9;color:#1b5a92;border-radius:99px;padding:6px 13px;font-size:13px;font-weight:700}.dot{width:8px;height:8px;background:#17b998;border-radius:50%}.hero h1{color:var(--navy);font-size:clamp(32px,4vw,50px);line-height:1.4;letter-spacing:-.7px;margin:16px 0 12px}.hero h1 em{font-style:normal;color:var(--blue)}.lead{font-size:16px;color:var(--muted);max-width:610px;margin:0 0 22px}.actions{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;width:min(100%,430px)}.btn{min-height:58px;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:13px;padding:12px 16px;font-weight:800;text-align:center;box-shadow:0 8px 20px #102b3f12;transition:transform .2s}.btn:hover{transform:translateY(-2px)}.btn-wa{background:var(--green);color:#09270d}.btn-call{background:var(--red);color:#fff}.benefits{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;color:#4c6676;font-size:13px}.benefits span:before{content:'✓';color:var(--blue);font-weight:bold;margin-left:6px}.hero-art{width:100%;max-width:570px;height:auto;display:block;border-radius:22px;mix-blend-mode:multiply}.service-labels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}.service-labels span{background:#fff;border:1px solid var(--line);border-radius:11px;padding:7px 10px;color:var(--navy);text-align:center;font-size:12px;font-weight:700}.section{padding:68px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 30px}.kicker{color:var(--blue);font-size:13px;font-weight:800}.section h2{font-size:clamp(26px,3vw,36px);line-height:1.4;color:var(--navy);margin:7px 0}.section-head p{color:var(--muted);margin:0}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:21px;box-shadow:0 7px 22px #123d6b08;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.icon{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#e8f2ff;font-size:23px;margin-bottom:13px}.card h3{margin:0 0 6px;color:var(--navy);font-size:17px}.card p{margin:0 0 12px;color:var(--muted);font-size:13px}.more{color:#086fca;font-size:13px;font-weight:800}.dark{background:var(--navy);color:#fff}.dark .section-head h2{color:#fff}.dark .section-head p{color:#c4d5e0}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.why-card{background:#ffffff0c;border:1px solid #ffffff22;border-radius:16px;padding:19px}.why-card h3{font-size:17px;margin:0 0 5px}.why-card p{color:#c4d5e0;font-size:13px;margin:0}.areas{display:grid;grid-template-columns:1.3fr .7fr;gap:26px;align-items:center}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}.tag{background:#fff;border:1px solid #dce7ef;color:#355873;border-radius:99px;padding:5px 10px;font-size:12px}.box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}.box h3{color:var(--navy);margin:0 0 6px}.box p{color:var(--muted);font-size:14px;margin:0 0 15px}.brands{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}.brand-logo{display:grid;place-items:center;min-height:68px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:8px;font-family:Arial,Tahoma,sans-serif;font-weight:900;font-size:17px;color:var(--navy)}.brand-logo:nth-child(4n+1){color:#c52b35}.brand-logo:nth-child(4n+2){color:#14548b}.brand-logo:nth-child(4n+3){color:#20262c}.brand-logo:nth-child(4n){color:#159381}.brand-logo.carrier{border-radius:50%;border:2px solid #175492;color:#175492;font-family:Georgia,serif;font-style:italic}.brand-logo.black{font-size:12px}.warning{background:#fff6e3;border:1px solid #f1dfb7;color:#624d23;border-radius:14px;padding:15px 18px;margin:17px 0;font-weight:700}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.list{margin:0;padding-right:20px;color:var(--muted)}.list li{padding:3px 0}.cta{background:linear-gradient(120deg,#e7f2fb,#f4fbff);border:1px solid #cfe0ef;border-radius:21px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{color:var(--navy);font-size:24px;margin:0 0 3px}.cta p{color:var(--muted);margin:0}.cta .actions{max-width:420px}.breadcrumb{font-size:13px;color:#688091;margin-bottom:13px}.breadcrumb a{color:var(--blue)}.service-hero{padding:43px 0;background:linear-gradient(120deg,#f1f8f8,#eef6fc)}.service-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:28px}.service-hero h1{color:var(--navy);font-size:clamp(30px,4vw,46px);line-height:1.4;margin:10px 0}.service-hero p{color:var(--muted);font-size:15px}.service-image{width:100%;height:270px;object-fit:cover;object-position:center;border-radius:20px;mix-blend-mode:multiply}footer{background:#0b223a;color:#fff;padding:38px 0 18px}.footgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:25px}.footgrid h3,.footgrid h4{margin:0 0 8px}.footgrid p,.footgrid a{font-size:13px;color:#c5d4de}.footlinks{display:grid;gap:4px}.disclaimer{border-top:1px solid #ffffff22;margin-top:23px;padding-top:13px;color:#afc0cb;font-size:12px}.mobile-bar{display:none}
+@media(max-width:900px){.nav{gap:9px;font-size:12px}.head{gap:10px}.grid4{grid-template-columns:repeat(2,1fr)}.brands{grid-template-columns:repeat(4,1fr)}.hero-grid,.service-hero-grid{grid-template-columns:1fr 1fr}.hero h1{font-size:36px}}
+@media(max-width:620px){.wrap{width:calc(100% - 28px)}.topbar .wrap{justify-content:center}.head{min-height:64px}.brand{font-size:15px}.brandmark{width:36px;height:36px}.nav{display:none}.head-cta{font-size:11px;padding:8px}.hero{padding:31px 0 26px}.hero-grid,.service-hero-grid{grid-template-columns:1fr;gap:16px}.hero h1{font-size:34px}.lead{font-size:15px}.hero-art{max-width:470px;margin:auto}.hero-visual{order:2}.benefits{gap:8px 13px}.section{padding:52px 0}.grid4{gap:10px}.card{padding:15px}.card h3{font-size:15px}.brands{grid-template-columns:repeat(3,1fr);gap:8px}.brand-logo{min-height:58px;font-size:15px}.brand-logo.black{font-size:11px}.why-grid,.detail-grid{grid-template-columns:1fr}.areas{grid-template-columns:1fr}.box{padding:20px}.service-image{height:auto;max-height:250px;object-fit:contain}.cta{display:grid;padding:22px}.cta .actions{width:100%;max-width:none}.footgrid{grid-template-columns:1fr;gap:18px}.mobile-bar{position:fixed;display:flex;bottom:9px;left:10px;right:10px;z-index:20;gap:8px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:7px;box-shadow:0 8px 28px #123d6b33}.mobile-bar .btn{flex:1;min-height:44px;padding:8px 5px;font-size:12px}footer{padding-bottom:74px}}
+/* Service cards: two columns on wide desktops, one column on laptop and smaller screens. */
+.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:1199px){.grid4{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.grid4{grid-template-columns:minmax(0,1fr)}}
+html,body{width:100%;max-width:100%;overflow-x:hidden}img{max-width:100%;height:auto}.hero-art{height:auto}
+@media(max-width:380px){.wrap{width:calc(100% - 24px)}.brand{font-size:13px;gap:7px}.brandmark{width:32px;height:32px}.head-cta{font-size:10px;padding:7px 8px}}
+
+/* Full-width rotating home hero with service-matched photo backgrounds. */
+.hero-carousel{position:relative;isolation:isolate;min-height:590px;padding:0;overflow:hidden;background:#0b223a;color:#fff}
+.hero-slides{position:absolute;inset:0}
+.hero-slide{position:absolute;inset:0;opacity:0;visibility:hidden;overflow:hidden;transition:opacity .75s ease}
+.hero-slide.active{opacity:1;visibility:visible}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(270deg,rgba(5,23,42,.92) 0%,rgba(5,23,42,.79) 46%,rgba(5,23,42,.28) 100%)}
+.hero-slide-content{position:relative;z-index:1;min-height:590px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-top:42px;padding-bottom:86px}
+.hero-carousel .hero-slide-content h1{max-width:720px;color:#fff;font-size:clamp(32px,4vw,50px);line-height:1.4;letter-spacing:-.5px;margin:16px 0 12px}
+.hero-carousel .hero-slide-content .lead{max-width:650px;color:#f0f5f8;font-size:16px;margin:0 0 20px}
+.hero-carousel .eyebrow{background:#ffffff16;border-color:#ffffff50;color:#fff}.hero-carousel .benefits{color:#f0f5f8}
+.hero-slider-controls{position:absolute;z-index:3;bottom:20px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;direction:ltr}
+.slider-dots{display:flex;align-items:center;gap:8px}.slider-dot,.slider-arrow{border:1px solid #ffffffa0;background:#ffffff30;color:#fff;cursor:pointer;display:grid;place-items:center}.slider-dot{width:11px;height:11px;border-radius:50%;padding:0}.slider-dot.active{width:28px;border-radius:99px;background:#fff}.slider-arrow{width:34px;height:34px;border-radius:50%;font-size:24px;line-height:1}.slider-arrow:hover,.slider-dot:hover{background:#fff;color:#123d6b}.slider-progress{position:absolute;z-index:3;bottom:0;left:0;right:0;height:3px;background:#ffffff30}.slider-progress span{display:block;width:20%;height:100%;background:#17b998;animation:slideProgress 6.5s linear infinite;transform-origin:left}@keyframes slideProgress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media(max-width:620px){.hero-carousel{min-height:650px}.hero-slide-content{min-height:650px;padding-top:36px;padding-bottom:100px}.hero-carousel .hero-slide-content h1{font-size:34px}.hero-carousel .hero-slide-content .lead{font-size:15px}.hero-photo{object-position:57% center}.hero-shade{background:linear-gradient(270deg,rgba(5,23,42,.91) 0%,rgba(5,23,42,.78) 55%,rgba(5,23,42,.46) 100%)}.hero-slider-controls{bottom:17px}.slider-arrow{width:31px;height:31px}}
+@media(prefers-reduced-motion:reduce){.hero-slide{transition:none}.slider-progress span{animation:none;transform:scaleX(1)}}
+
+/* Service cards: consistent height and a centered, easy-to-find action */
+.service-card{display:flex;flex-direction:column;padding:0 0 20px;overflow:hidden}
+.service-card .service-card-image{display:block;width:100%;height:180px;object-fit:cover}
+.service-card .icon,.service-card h3,.service-card p{margin-right:18px;margin-left:18px}
+.service-card .icon{margin-top:15px}
+.service-card p{flex:1;min-height:72px}
+.service-card-cta{display:flex;width:calc(100% - 36px);min-height:50px;margin:16px 18px 0;align-items:center;justify-content:center;gap:10px;border-radius:12px;background:var(--blue);color:#fff;font-weight:800;box-shadow:0 8px 18px #0878df2b;transition:background .2s,transform .2s}
+.service-card-cta:hover{background:var(--navy);transform:translateY(-2px)}
+.service-card-cta span{font-size:19px;line-height:1}
+/* FAQ accordions */
+.faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:0 18px;box-shadow:0 7px 22px #123d6b08}
+.faq-item summary{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:60px;cursor:pointer;color:var(--navy);font-weight:800;list-style:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';color:var(--blue);font-size:23px;line-height:1}
+.faq-item[open] summary::after{content:'−'}
+.faq-item p{color:var(--muted);font-size:14px;margin:0;padding:0 0 17px}
+/* Center the agency credit across the footer */
+.credit{display:block;width:100%;margin:12px auto 0;padding-top:12px;border-top:1px solid #ffffff22;text-align:center;direction:ltr;color:#afc0cb;font-size:12px}
+.credit a{color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+@media(max-width:620px){.service-card .service-card-image{height:190px}.service-card p{min-height:0}.faq-grid{grid-template-columns:1fr}}
+
+/* Washing machine type cards */
+.washer-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.washer-service-card{overflow:hidden;display:flex;flex-direction:column;padding:0}
+.washer-service-card>img{display:block;width:100%;height:240px;object-fit:cover;object-position:center 44%}
+.washer-service-body{display:flex;flex-direction:column;align-items:stretch;flex:1;padding:18px}
+.washer-service-body h3{margin:0 0 8px;color:var(--navy);font-size:19px;line-height:1.6}
+.washer-service-body p{flex:1;margin:0;color:var(--muted);font-size:14px}
+.washer-service-body .service-card-cta{width:100%;margin:16px 0 0}
+@media(max-width:1199px){.washer-service-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.washer-service-card>img{height:220px}.washer-service-body{padding:16px}.washer-service-body h3{font-size:17px}}
+
+/* Preserve complete appliance and technician photos without cropping */
+.service-card .service-card-image{height:auto;aspect-ratio:3/2;object-fit:contain;background:#edf2f5}
+.service-image{height:auto;max-height:none;aspect-ratio:3/2;object-fit:contain;background:#edf2f5;mix-blend-mode:normal}
+.washer-service-card{display:grid;grid-template-columns:minmax(175px,.85fr) minmax(0,1.15fr);align-items:stretch}
+.washer-service-card>img{width:100%;height:100%;min-height:0;aspect-ratio:1/1;object-fit:contain;object-position:center;background:#edf2f5}
+.washer-service-body{min-width:0}
+@media(max-width:620px){.washer-service-card{display:flex;flex-direction:column}.washer-service-card>img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain}.service-card .service-card-image{height:auto;aspect-ratio:3/2}.service-image{height:auto;aspect-ratio:3/2}}
+
+/* Dryer subservice cards use the same complete-image treatment as washers */
+.dryer-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.dryer-service-card{display:grid;grid-template-columns:minmax(175px,.85fr) minmax(0,1.15fr);align-items:stretch;overflow:hidden;padding:0}
+.dryer-service-card>img{display:block;width:100%;height:100%;min-height:0;aspect-ratio:1/1;object-fit:contain;object-position:center;background:#edf2f5}
+.dryer-service-body{display:flex;flex-direction:column;align-items:stretch;min-width:0;padding:18px}
+.dryer-service-body h3{margin:0 0 8px;color:var(--navy);font-size:19px;line-height:1.6}
+.dryer-service-body p{flex:1;margin:0;color:var(--muted);font-size:14px}
+.dryer-service-body .service-card-cta{width:100%;margin:16px 0 0}
+@media(max-width:1199px){.dryer-service-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.dryer-service-card{display:flex;flex-direction:column}.dryer-service-card>img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain}.dryer-service-body{padding:16px}.dryer-service-body h3{font-size:17px}}
+
+/* Dishwasher subservice cards: entire appliance photo stays in frame */
+.dishwasher-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.dishwasher-service-card{display:grid;grid-template-columns:minmax(175px,.85fr) minmax(0,1.15fr);align-items:stretch;overflow:hidden;padding:0}
+.dishwasher-service-card>img{display:block;width:100%;height:100%;min-height:0;aspect-ratio:1/1;object-fit:contain;object-position:center;background:#edf2f5}
+.dishwasher-service-body{display:flex;flex-direction:column;align-items:stretch;min-width:0;padding:18px}
+.dishwasher-service-body h3{margin:0 0 8px;color:var(--navy);font-size:19px;line-height:1.6}
+.dishwasher-service-body p{flex:1;margin:0;color:var(--muted);font-size:14px}
+.dishwasher-service-body .service-card-cta{width:100%;margin:16px 0 0}
+@media(max-width:1199px){.dishwasher-service-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.dishwasher-service-card{display:flex;flex-direction:column}.dishwasher-service-card>img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain}.dishwasher-service-body{padding:16px}.dishwasher-service-body h3{font-size:17px}}
+
+/* AC subservice cards match the appliance pages and keep full images visible */
+.ac-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.ac-service-card{display:grid;grid-template-columns:minmax(175px,.85fr) minmax(0,1.15fr);align-items:stretch;overflow:hidden;padding:0}
+.ac-service-card>img{display:block;width:100%;height:100%;min-height:0;aspect-ratio:1/1;object-fit:contain;object-position:center;background:#edf2f5}
+.ac-service-body{display:flex;flex-direction:column;align-items:stretch;min-width:0;padding:18px}
+.ac-service-body h3{margin:0 0 8px;color:var(--navy);font-size:19px;line-height:1.6}
+.ac-service-body p{flex:1;margin:0;color:var(--muted);font-size:14px}
+.ac-service-body .service-card-cta{width:100%;margin:16px 0 0}
+@media(max-width:1199px){.ac-service-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.ac-service-card{display:flex;flex-direction:column}.ac-service-card>img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain}.ac-service-body{padding:16px}.ac-service-body h3{font-size:17px}}
+
+/* Match the service-page trust highlights to the home hero palette */
+.service-benefits{gap:8px;margin-top:16px}
+.service-benefits span{display:inline-flex;align-items:center;background:#fff;border:1px solid #dce9f1;border-radius:999px;padding:5px 11px;color:var(--navy);font-size:12px;font-weight:700}
+.service-benefits span:before{content:'✓';color:var(--blue);font-weight:900;margin-left:6px}
+@media(max-width:620px){.service-benefits{gap:7px}.service-benefits span{padding:5px 9px;font-size:11px}}
+
+/* Carry the homepage navy and teal identity into every service page hero. */
+.service-hero{background:radial-gradient(ellipse at 12% 8%,#15547a 0,transparent 38%),linear-gradient(120deg,#0b223a,#123d6b);color:#fff}
+.service-hero .breadcrumb{color:#c5d4de}
+.service-hero .breadcrumb a{color:#75c5cf}
+.service-hero .eyebrow{background:#ffffff16;border-color:#ffffff50;color:#fff}
+.service-hero h1{color:#fff}
+.service-hero p{color:#e2edf4}
+.service-hero .service-image{border:1px solid #ffffff24;box-shadow:0 16px 40px #061a2b55}
+.why-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.why-grid{grid-template-columns:1fr}}
+
+/* Replace the letter mark with a compact round badge for the four serviced appliances. */
+.brandmark{border-radius:50%;background:transparent;color:transparent;overflow:visible}
+.brandmark svg{display:block;width:100%;height:100%}
+
+/* Moving service, nearby-area, and service-quality strip. Tool icons separate every item. */
+.topbar{height:39px;overflow:hidden;background:#0c2d50;color:#f3f8fb}
+.ticker-viewport{height:100%;overflow:hidden;display:flex;align-items:center}
+.ticker-track{display:flex;align-items:center;width:max-content;direction:ltr;animation:tickerTravel 52s linear infinite;will-change:transform}
+.ticker-run{display:flex;flex:none;align-items:center;gap:13px;padding:0 18px;white-space:nowrap}
+.ticker-item{font-size:13px;font-weight:700;color:#f3f8fb}
+.ticker-separator{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px}
+.ticker-separator svg{display:block;width:23px;height:21px;fill:none;stroke:#75c5cf;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.ticker-viewport:hover .ticker-track,.ticker-viewport:focus-within .ticker-track{animation-play-state:paused}
+@keyframes tickerTravel{to{transform:translateX(50%)}}
+
+/* Persistent call and WhatsApp actions on desktop and mobile. */
+.mobile-bar{position:fixed;left:18px;right:auto;bottom:20px;z-index:40;display:flex;flex-direction:column;align-items:stretch;gap:9px;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;direction:ltr}
+.mobile-bar .btn{width:150px;min-height:48px;flex:none;justify-content:flex-start;gap:10px;padding:10px 14px;border:1px solid #ffffffaa;border-radius:999px;box-shadow:0 8px 24px #0b223a40;font-size:14px}
+.mobile-bar .btn svg{width:21px;height:21px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.mobile-bar .btn-wa{background:#19d366;color:#073b22}
+.mobile-bar .btn-call{background:#f21f28;color:#fff}
+@media(max-width:620px){.topbar{height:36px}.ticker-track{animation-duration:58s}.ticker-run{gap:10px;padding-inline:14px}.ticker-item{font-size:12px}.mobile-bar{left:12px;bottom:14px;gap:8px}.mobile-bar .btn{width:132px;min-height:46px;padding:9px 12px;font-size:13px}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}.ticker-run[aria-hidden="true"]{display:none}}
+
+/* One mobile bottom bar keeps contact actions together; avoid side-floating duplication. */
+.mobile-bar{display:none}
+.mobile-bar .btn svg{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:767px){
+ .mobile-bar{position:fixed;left:10px;right:10px;bottom:10px;z-index:40;display:flex;flex-direction:row;align-items:stretch;gap:8px;padding:7px;border:1px solid #dce7ef;border-radius:16px;background:#fff;box-shadow:0 8px 28px #123d6b33;direction:ltr}
+ .mobile-bar .btn{width:auto;min-width:0;min-height:48px;flex:1;justify-content:center;gap:8px;padding:8px 10px;border:0;border-radius:11px;font-size:14px}
+ .mobile-bar .btn-wa{background:#19d366;color:#073b22}
+ .mobile-bar .btn-call{background:#f21f28;color:#fff}
+ .mobile-bar .btn-wa{animation:contactPulse 2.8s ease-in-out infinite,contactNudge 6s ease-in-out infinite}
+ .mobile-bar .btn-call{animation:contactPulse 2.8s ease-in-out .35s infinite,contactNudge 6s ease-in-out 1s infinite}
+ footer{padding-bottom:88px}
+}
+@keyframes contactPulse{0%,100%{box-shadow:0 4px 12px #123d6b20}50%{box-shadow:0 7px 19px #123d6b38}}
+@keyframes contactNudge{0%,88%,100%{transform:translateY(0)}91%{transform:translateY(-2px)}94%{transform:translateY(1px)}97%{transform:translateY(-1px)}}
+@media(prefers-reduced-motion:reduce){.mobile-bar .btn{animation:none}}
