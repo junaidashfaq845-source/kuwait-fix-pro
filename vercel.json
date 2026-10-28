@@ -1,47 +1,43 @@
 {
-  "redirects": [
+  "routes": [
     {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
+      "src": "/index\\.html",
+      "status": 404
     },
     {
-      "source": "/washing-machine-repair.html",
-      "destination": "/washing-machine-repair",
-      "permanent": true
+      "src": "/washing-machine-repair\\.html",
+      "status": 404
     },
     {
-      "source": "/dryer-repair.html",
-      "destination": "/dryer-repair",
-      "permanent": true
+      "src": "/dryer-repair\\.html",
+      "status": 404
     },
     {
-      "source": "/dishwasher-repair.html",
-      "destination": "/dishwasher-repair",
-      "permanent": true
+      "src": "/dishwasher-repair\\.html",
+      "status": 404
     },
     {
-      "source": "/ac-repair.html",
-      "destination": "/ac-repair",
-      "permanent": true
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/washing-machine-repair",
-      "destination": "/washing-machine-repair.html"
+      "src": "/ac-repair\\.html",
+      "status": 404
     },
     {
-      "source": "/dryer-repair",
-      "destination": "/dryer-repair.html"
+      "src": "/washing-machine-repair",
+      "dest": "/washing-machine-repair.html"
     },
     {
-      "source": "/dishwasher-repair",
-      "destination": "/dishwasher-repair.html"
+      "src": "/dryer-repair",
+      "dest": "/dryer-repair.html"
     },
     {
-      "source": "/ac-repair",
-      "destination": "/ac-repair.html"
+      "src": "/dishwasher-repair",
+      "dest": "/dishwasher-repair.html"
+    },
+    {
+      "src": "/ac-repair",
+      "dest": "/ac-repair.html"
+    },
+    {
+      "handle": "filesystem"
     }
   ]
 }
