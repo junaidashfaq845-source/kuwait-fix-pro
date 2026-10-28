@@ -1,0 +1,47 @@
+{
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/washing-machine-repair.html",
+      "destination": "/washing-machine-repair",
+      "permanent": true
+    },
+    {
+      "source": "/dryer-repair.html",
+      "destination": "/dryer-repair",
+      "permanent": true
+    },
+    {
+      "source": "/dishwasher-repair.html",
+      "destination": "/dishwasher-repair",
+      "permanent": true
+    },
+    {
+      "source": "/ac-repair.html",
+      "destination": "/ac-repair",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/washing-machine-repair",
+      "destination": "/washing-machine-repair.html"
+    },
+    {
+      "source": "/dryer-repair",
+      "destination": "/dryer-repair.html"
+    },
+    {
+      "source": "/dishwasher-repair",
+      "destination": "/dishwasher-repair.html"
+    },
+    {
+      "source": "/ac-repair",
+      "destination": "/ac-repair.html"
+    }
+  ]
+}

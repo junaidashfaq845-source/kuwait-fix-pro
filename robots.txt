@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://kuwaitfixpro.com/sitemap.xml
+Sitemap: https://www.kuwaitfixpro.com/sitemap.xml
